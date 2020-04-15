@@ -45,6 +45,7 @@ public void testSearchGoogle() throws InterruptedException {
 
 @AfterClass
 public void tearDown(){
-wd.quit();
+
+     wd.quit();
 }
 }
